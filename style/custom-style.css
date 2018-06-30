@@ -1,7 +1,42 @@
-body{
-    position:fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
+html, body{
+  margin: 0;
+  height: 100%;
+  overflow: auto;
+}
+.home-page{
+  font-family:'Fira Mono', monospace;
+
+}
+.fa-soundcloud:hover{
+  color: #ff8800;
+}
+.fa-linkedin:hover{
+  color: #0077B5;
+}
+.fa-github:hover{
+  color:#990000;
+}
+.portolio-page{
+  font-family:'Fira Mono';
+  background-color: #f5f5f5;
+}
+
+.navbar{
+  font-family:'Fira Mono', monospace;
+  font-size:1.3em;
+  font-weight:400;
+  letter-spacing:.0625em;
+  line-height:1.8em;
+}
+
+.intro{
+  font-family:'Fira Mono', monospace;
+  font-size:1.3em;
+  font-weight:400;
+  letter-spacing:.0625em;
+  line-height:1.8em;
+}
+
+.portfolio{
+
 }

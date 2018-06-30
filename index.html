@@ -5,6 +5,11 @@
     <title>Datboi.</title>
     <!-- Bulma CSS Framework -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" rel="stylesheet">
+    <!-- Font Awesome  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <!-- Google Fonts  -->
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <!-- Custom CSS -->
     <link href="style/custom-style.css" rel="stylesheet">
     <!-- JQuery CDN -->
     <script
@@ -12,26 +17,66 @@
       integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
       crossorigin="anonymous">
     </script>
+    <!-- Nav Bar Controller-->
+    <script src = "scripts/navbar.js"></script>
   </head>
-  <body>
-    <section class="section">
-    <div class = "column">
-      <!-- Headline -->
-      <div class = "column is-half is-offset-one-quarter has-text-centered">
-            <h1 class="title">
-              Cory Z. Crowley
-            </h1>
-            <p class="subtitle">
-              Tech-minded individual with a passion to learn and create new technologies. Focus on software engineering, machine vision, machine learning, AI, full-stack web and mobile development, and entrepreneurship.
-            </p>
+  <body class = "home-page">
+    <nav class="navbar is-fixed-top is-dark is-bold">
+      <div class = "navbar-brand">
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
       </div>
-    </div>
-  </section>
-  <!-- Resume -->
-  <section class="section">
-    <div class = "column is-half is-offset-one-quarter has-text-centered">
-      <h3 class = "subtitle is-4"><a href = "resume/resume.pdf?iframe=true">Resume</a></h3>
-    </div>
-  </section>
+      <div class="navbar-menu" id="navMenu">
+        <div class = "navbar-end">
+          <a class = "navbar-item" href = "portfolio.html">
+            <h2>Portfolio</h2>
+          </a>
+          <a class = "navbar-item" href = "https://blog.corycrowley.me">
+            <h2>Blog</h2>
+          </a>
+          <a class = "navbar-item" href = "resume/resume.pdf?iframe=true" target="_blank" >
+            <h2>Resume</h2>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <section class="hero is-light is-bold is-fullheight intro">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title is-size-1">
+            Cory Z. Crowley
+          </h1>
+          <h2 class="subtitle">
+            Software Engineering @ Microsoft
+          </h2>
+          <div class = "columns is-mobile">
+              <div class = "column  is-2-desktop is-2-tablet is-offset-3-desktop is-offset-3-tablet">
+                <a href = "https://github.com/ccrowley96" target="_blank">
+                  <span class = "icon">
+                    <i class="fa fa-github fa-2x"></i>
+                  </span>
+                </a>
+              </div>
+              <div class = "column is-2-desktop is-2-tablet">
+                <a href = "https://www.linkedin.com/in/crowleycoryz/" target="_blank">
+                  <span class = "icon">
+                    <i class="fa fa-linkedin fa-2x"></i>
+                  </span>
+                </a>
+              </div>
+              <div class = "column is-2-desktop is-2-tablet">
+                <a href = "https://soundcloud.com/ccrowley96" target="_blank">
+                  <span class = "icon">
+                    <i class="fa fa-soundcloud fa-2x"></i>
+                  </span>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

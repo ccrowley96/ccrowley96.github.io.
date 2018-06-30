@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Datboi.</title>
+    <!-- Bulma CSS Framework -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" rel="stylesheet">
+    <!-- Google Fonts  -->
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <!-- Custom CSS -->
+    <link href="style/custom-style.css" rel="stylesheet">
+    <!-- JQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+      crossorigin="anonymous">
+    </script>
+    <!-- Nav Bar Controller-->
+    <script src = "scripts/navbar.js"></script>
+  </head>
+  <body class="portolio-page is-light">
+    <nav class="navbar is-dark is-bold">
+      <div class = "navbar-brand">
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <div class = "navbar-end">
+          <a class = "navbar-item" href = "index.html">
+            <h2>Home</h2>
+          </a>
+          <a class = "navbar-item" href = "https://blog.corycrowley.me">
+            <h2>Blog</h2>
+          </a>
+          <a class = "navbar-item" href = "resume/resume.pdf?iframe=true" target="_blank" >
+            <h2>Resume</h2>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <section class="hero is-light">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            Portfolio
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio" style ="margin-top:-70px;">
+      <div class = "container">
+          <div class = "tile is-ancestor">
+            <div class = "tile is-6 is-parent">
+              <a class = "tile is-child box has-text-centered" href = "https://mcec.microsoft.ca/blog/vancouver-interns-brings-holograms-to-bc-cancer/" target="_blank">
+                <h2>'HoloCell' Visualizer</h2>
+              </a>
+            </div>
+            <div class = "tile is-6 is-parent">
+              <a class = "tile is-child box has-text-centered" href = "https://qshare.ca" target="_blank">
+                <h2>QShare</h2>
+              </a>
+            </div>
+          </div>
+          <div class = "tile is-ancestor">
+            <div class = "tile is-4 is-parent">
+              <a class = "tile is-child box has-text-centered" href = "http://goldenwords.ca" target="_blank">
+                <h3>Golden Words</h3>
+              </a>
+            </div>
+            <div class = "tile is-4 is-parent">
+              <a class = "tile is-child box has-text-centered" href = "http://qsconference.com" target="_blank">
+                <h3>Space Conference</h3>
+              </a>
+            </div>
+            <div class = "tile is-4 is-parent">
+              <a class = "tile is-child box has-text-centered" href = "http://qhacks.io" target="_blank">
+                <h3>QHacks</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+  </body>
+</html>
