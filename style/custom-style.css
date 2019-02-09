@@ -40,6 +40,11 @@ html, body{
   background-color: rgba(1,1,1,0);
 }
 
+.active-nav-page{
+  color:white;
+  background-color: #363636;
+}
+
 .social-links a{
   color:#363636;
 }
@@ -73,9 +78,24 @@ html, body{
   }
 }
 
+.portfolio-divider{
+  background-color:#363636;
+}
+
 /* Hover CSS */
 /* Grow */
 .hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow-porfolio {
   display: inline-block;
   vertical-align: middle;
   transform: translateZ(0);
@@ -90,6 +110,12 @@ html, body{
 .hvr-grow:focus,
 .hvr-grow:active {
   transform: scale(1.5);
+}
+
+.hvr-grow-porfolio:hover,
+.hvr-grow-porfolio:focus,
+.hvr-grow-porfolio:active {
+  transform: scale(1.1);
 }
 
 

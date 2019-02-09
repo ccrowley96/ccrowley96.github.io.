@@ -15,6 +15,8 @@
     <title>Datboi.</title>
     <!-- Bulma CSS Framework -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" rel="stylesheet">
+    <!-- Font Awesome  -->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
     <!-- Google Fonts  -->
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <!-- Custom CSS -->
@@ -44,6 +46,7 @@
           <a class = "navbar-item" href = "index.html">
             <h2>Home</h2>
           </a>
+          <h2 class="navbar-item active-nav-page">Portfolio</h2>
           <a class = "navbar-item" href = "https://blog.corycrowley.me">
             <h2>Blog</h2>
           </a>
@@ -53,48 +56,83 @@
         </div>
       </div>
     </nav>
-    <section class="hero">
+    <section class="hero is-dark">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title">
+          <h1 class="title is-1">
             Portfolio
           </h1>
         </div>
       </div>
     </section>
 
-    <section class="section portfolio" style ="margin-top:-70px;">
+    <section class="section portfolio">
       <div class = "container">
-          <div class = "tile is-ancestor">
-            <div class = "tile is-6 is-parent">
-              <a class = "tile is-child box has-text-centered" href = "https://mcec.microsoft.ca/blog/vancouver-interns-brings-holograms-to-bc-cancer/" target="_blank">
-                <h2>'HoloCell' Visualizer</h2>
-              </a>
-            </div>
-            <div class = "tile is-6 is-parent">
-              <a class = "tile is-child box has-text-centered" href = "https://github.com/QueensRideshare/Qshare" target="_blank">
-                <h2>QShare</h2>
-              </a>
-            </div>
+        <div class = "columns">
+          <div class = "column hvr-grow-porfolio">
+            <a href="https://mcec.microsoft.ca/blog/vancouver-interns-brings-holograms-to-bc-cancer/" target="_blank">
+            <h1 class="title is-2"><span><i class="fab fa-microsoft"></i></span> Microsoft Internship I</h1>
+            <h2 class="subtitle is-4">Software Engineering Vancouver, BC</h2>
+          </a>
           </div>
-          <div class = "tile is-ancestor">
-            <div class = "tile is-4 is-parent">
-              <a class = "tile is-child box has-text-centered" href = "http://goldenwords.ca" target="_blank">
-                <h3>Golden Words</h3>
-              </a>
-            </div>
-            <div class = "tile is-4 is-parent">
-              <a class = "tile is-child box has-text-centered" href = "http://qsconference.com" target="_blank">
-                <h3>Space Conference</h3>
-              </a>
-            </div>
-            <div class = "tile is-4 is-parent">
-              <a class = "tile is-child box has-text-centered" href = "http://qhacks.io" target="_blank">
-                <h3>QHacks</h3>
-              </a>
-            </div>
+          <div class = "column">
+            <h1 class="title is-2"><span><i class="fab fa-microsoft"></i></span> Microsoft Internship II</h1>
+            <h2 class="subtitle is-4">Software Engineering, Seattle WA</h2>
           </div>
         </div>
+
+        <hr class="hr portfolio-divider">
+
+        <div class = "columns"> 
+            <div class="column">
+                <h1 class="title is-4"><span><i class="fa fa-trophy"></i></span> TextNet</h1>
+                <h2 class="subtitle is-5" style="margin-bottom:5px;">Internet Over SMS</h2>
+                <h3 class="subtitle is-6">HackPrinceton 2018 Winner</h3>
+            </div>
+            <div class="column hvr-grow-porfolio">
+              <a href="https://www.musicrowd.ca" target="_blank">
+                <h1 class="title is-4"><span><i class="fa fa-trophy"></i></span> MusiCrowd</h1>
+                <h2 class="subtitle is-5" style="margin-bottom:5px;">The Democratic DJ</h2>
+                <h3 class="subtitle is-6">QHacks 2019 Winner</h3>
+              </a>
+            </div>
+            <div class="column">
+                <h1 class="title is-4"><span><i class="fas fa-gamepad"></i></span> Snake 2</h1>
+                <h2 class="subtitle is-5" style="margin-bottom:5px;">Multiplayer Snake</h2>
+                <h3 class="subtitle is-6">HackHarvard 2018 Submission</h3>
+            </div>
+        </div>
+
+        <hr class="hr portfolio-divider">
+
+        <div class = "columns">
+          <div class = "column">
+              <h1 class="title is-4"><span><i class="fas fa-car"></i></span> Queen's University Rideshare App</h1>
+              <h2 class="subtitle is-5">QShare - QTMA 2018 Winning Project</h2>
+          </div>
+          <div class = "column hvr-grow-porfolio">
+            <a href="http://goldenwords.ca" target="_blank">
+              <h1 class="title is-4"><span><i class="far fa-newspaper"></i></span> Golden Words Newspaper Website</h1>
+              <h2 class="subtitle is-5">Webmaster for GoldenWords Newspaper</h2>
+            </a>
+          </div>
+        </div>
+        <div class = "columns">
+          <div class = "column hvr-grow-porfolio">
+            <a href="http://qsconference.com" target="_blank">
+              <h1 class="title is-4"><span><i class="fas fa-user-astronaut"></i></span> Queen's Space Conference Website</h1>
+              <h2 class="subtitle is-5">Webmaster and IT Coordinator</h2>
+            </a>
+          </div>
+          <div class = "column hvr-grow-porfolio">
+              <a href="http://qhacks.io" target="_blank">
+                <h1 class="title is-4"><span><i class="fas fa-laptop"></i></span> Queen's Univeristy Hackathon</h1>
+                <h2 class="subtitle is-5">QHacks IT Coordinator</h2>
+              </a>
+            </div>
+        </div>
+
+      </div>
     </section>
   </body>
 </html>
